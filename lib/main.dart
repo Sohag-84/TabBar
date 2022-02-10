@@ -15,8 +15,8 @@ class MyApp extends StatelessWidget {
         child: Scaffold(
           backgroundColor: Colors.white,
           appBar: TabBar(
-            //indicatorColor: Colors.redAccent,
-              //labelColor: Colors.green,
+            indicatorColor: Colors.redAccent,
+            labelColor: Colors.green,
               tabs:[
             Tab(icon: Icon(Icons.home),text: "Home",),
             Tab(icon: Icon(Icons.person),text: "profile",),
